@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Tailwind Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- navbar  -->
+   <nav class="p-3 flex bg-white justify-between items-center">
+    <a href="#" class="flex gap-2 items-center">
+      <img src="images/coding logo.png" alt="logo" class="object-cover max-w-12 max-h-12">
+      <span class="text-lg font-bold">ToDesktop</span>
+    </a>
+    <div class="nav-menu hidden md:flex gap-12" >
+      <a href="#" class="font-medium hover:text-[#d89999]">Price</a>
+      <a href="#" class="font-medium hover:text-[#d89999]">Docs</a>
+      <a href="#" class="font-medium hover:text-[#d89999]">ChangeLog</a>
+      <a href="#" class="font-medium hover:text-[#d89999]">Blogs</a>
+      <a href="#" class="font-medium hover:text-[#d89999]">Login</a>
+    </div>
+    <button class="hidden md:flex gap-2 items-center border border-gray-400 px-6 py-2 rounded-lg hover:border-gray-700 cursor-pointer">
+      <img src="images/elm-16-svgrepo-com.svg" alt="" srcset=""  class="h-5 w-5">
+      <span>Website Developer</span>
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+    <button class="p-2 md:hidden" onclick="handleMenu()">
+      <i class="fa-solid fa-bars text-gray-600 cursor-pointer"></i>
+    </button>
+    <!-- <div>
+      <a href="#" class="flex gap-2 items-center">
+        <img src="images/coding logo.png" alt="logo" class="object-cover max-w-12 max-h-12">
+        <span class="text-lg font-bold">ToDesktop</span>
+      </a>
+    </div> -->
+    <div class="custom-box">Custom Box</div>
+   </nav>
+  <!-- navbar  -->
+  <script src="js.js"></script>            
+</body>
+</html>

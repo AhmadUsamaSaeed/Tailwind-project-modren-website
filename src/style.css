@@ -1,0 +1,9 @@
+:root {
+    --main-color: #ff5733;
+  }
+  
+.custom-box {
+    background-color: var(--main-color);
+    padding: 20px;
+    border-radius: 8px;
+  }
