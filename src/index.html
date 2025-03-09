@@ -15,7 +15,7 @@
       <img src="images/coding logo.png" alt="logo" class="object-cover max-w-12 max-h-12">
       <span class="text-lg font-bold">ToDesktop</span>
     </a>
-    <div class="nav-menu hidden md:flex gap-12" >
+    <div class="nav-menu  hidden md:flex  gap-12" >
       <a href="#" class="font-medium hover:text-[#d89999]">Price</a>
       <a href="#" class="font-medium hover:text-[#d89999]">Docs</a>
       <a href="#" class="font-medium hover:text-[#d89999]">ChangeLog</a>
@@ -30,7 +30,45 @@
     <button class="p-2 md:hidden" onclick="handleMenu()">
       <i class="fa-solid fa-bars text-gray-600 cursor-pointer"></i>
     </button>
+
+   </nav>
   <!-- navbar  -->
+   <!-- hero section  -->
+    <main>
+      <div id="hero" class="min-h-screen bg-gradient-to-br from-purple-100 via-orange-100 to-transparent">
+        <div id="hero-container" class="max-w-4xl mx-auto px-6 pb-32 flex flex-col pt-6 sm:items-center sm:text-center">
+          <div id="version-text" class="flex items-center my-6 gap-2 rounded-lg border border-yellow-300 bg-yellow-50 roundeed-lg px-3 py-1 w-fit shadow-md hover:shadow-lg hover:-translate-y-1 transition group" >
+            <div class="w-2 h-2 bg-yellow-300 rounded-full border border-yellow-600"></div>
+            <p class="font-medium text-yellow-500">v0.21.1: <span class="text-yellow-800">Find-in-Page bug fixes</span></p>
+            <i class="fa-solid fa-arrow-right text-yellow-600 group-hover:translate-x-1 transition"></i>
+
+          </div>
+          <div id="hero-freacture" class=" hidden sm:flex gap-8 m-6">
+            <div class="flex justify-center gap-2 items-center">
+              <i class="fa-regular fa-file-code text-sm"></i>
+              <p>code optical</p>
+            </div>
+            <div class="flex justify-center gap-2 items-center">
+              <i class="fa-solid fa-hand-back-fist text-sm"></i>
+              <p>Drag & drop builder</p>
+            </div>
+            <div class="flex justify-center gap-2 items-center">
+              <i class="fa-solid fa-laptop text-sm"></i>
+              <p>Window, Mac, Linux</p>
+            </div>
+          </div>
+          <h1 class="text-4xl text-gray-800 font-medium leading-snug mt-4 sm:text-6xl sm:leading-normal">
+            Web app to destop app in minutes
+          </h1>
+          <p class="text-xl mt-4 sm:text-2xl sm:mt-8 sm:leading-normal ">Take your web app codebase and transform it into a cross platform destop app with native functionality.</p>
+          <div id="buttons-container" class="mt-12 flex flex-col sm:flex-row gap-3">
+            <button class="px-8 py-3 font-semibold text-white bg-blue-700 rounded-lg shadow-sm hover:opacity-90 ">Download Now</button>
+            <button class="px-8 py-3 font-semibold text-black bg-white border border-gray-400 rounded-lg shadow-sm hover:border-gray-800">Read Docs</button>
+          </div>
+        </div>
+      </div>
+    </main>
+   <!-- hero section  -->
   <script src="js.js"></script>            
 </body>
 </html>
