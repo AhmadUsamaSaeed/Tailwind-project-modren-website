@@ -1,3 +1,4 @@
-function handleMenu(){
-    console.log('first');
-}
+// const navDialog = Document.getElementById('nav-dialog');
+// function handleMenu(){
+//     navDialog.classList.toggle('hidden');
+// }
